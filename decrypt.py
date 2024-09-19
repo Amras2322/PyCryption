@@ -5,7 +5,7 @@ all_alphabets = list(string.ascii_uppercase)
 
 keyword = input("Enter Keyword: ")
 keyword = keyword.upper()
-ciphertext = input("Input Text to Decrypt: ")
+ciphertext = input("Input Text to Decrypt (remove special characters first!): ")
 
 # converts message to list
 ct = []
